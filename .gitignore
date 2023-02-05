@@ -1,0 +1,45 @@
+# Compiled object files
+*.o
+pscanner
+
+# Compiled dynamic libraries
+*.so
+
+# Executables
+*.out
+
+# Debug files
+*.dSYM
+
+# Dependency files
+*.d
+
+# IDEs and Editor Backup files
+*.swp
+*.swo
+*~
+\#*\#
+*.backup
+*.bak
+*.orig
+
+# Compiler generated files
+*.s
+
+# CMake files
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+
+# System files
+/.DS_Store
+/build
+/dist
+/docs/html
+/docs/latex
+/test-reports
+
+# Binaries
+/bin
+
+# Additional ignore patterns can be added below this line.
