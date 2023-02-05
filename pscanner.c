@@ -80,8 +80,8 @@ void *scan_port_thread(void *arg) {
     struct scan_args *args = (struct scan_args *)arg;
 
     assert(args->ip != NULL);
-    assert(args->ports->start > args->ports->end);
-    assert(args->ports->start < 1 || args->ports->end > 65535);
+    assert(args->ports->end >= args->ports->start);
+    assert(args->ports->start > 0 || args->ports->end <= 65535);
     assert(args->timeout >= 0);
     assert(args->ports != NULL);
 
