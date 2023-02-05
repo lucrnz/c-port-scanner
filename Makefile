@@ -1,8 +1,8 @@
 CC = cc
-CFLAGS = -fsanitize=address -g -Wall -Werror
+CFLAGS = -pthread -fsanitize=address -g -Wall -Werror
 
-pscanner: main.c
-	$(CC) $(CFLAGS) -o pscanner main.c
+pscanner: pscanner.c
+	$(CC) $(CFLAGS) -o pscanner pscanner.c
 
 .PHONY: clean
 
