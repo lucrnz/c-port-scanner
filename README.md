@@ -16,11 +16,11 @@ make pscanner
 
 ## Example
 ```
-./pscanner 127.0.0.1 1 65535 1
+./pscanner 127.0.0.1 1 65535 30
 ```
 
 ## Output
-The program outputs the status of each port: either `open` or `closed`. If a port is open, it also outputs `--- FOUND OPEN PORT ---` to indicate a potential security risk.
+The program outputs the status of a port, only if its open. `Port %number% -- OPEN` will appear on the standard output.
 
 ## Copying
 
