@@ -1,6 +1,8 @@
 # Port Scanner
 A multithreaded port scanner that uses sockets to scan a range of ports on a target IP.
 
+Disclaimer: This is a toy project, I don't intend to give support for it.
+
 ## Usage
 `./pscanner <ip address> <start_port> <end_port> <timeout>`
 
